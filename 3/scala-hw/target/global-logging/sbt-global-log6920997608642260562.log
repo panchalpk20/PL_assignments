@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(40af2be5-c599-4fdb-8832-90f2c698924c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly fp1tests, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Colg stuffs\Fall 24\PLC\PLS assignments\3\scala-hw\target\scala-3.4.1\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Colg stuffs\Fall 24\PLC\PLS assignments\3\scala-hw\src\main\scala\fp1.scala:165:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m165 |[0m      ys = xs.tail[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m      ^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      Not found: ys - did you mean xs?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Colg stuffs\Fall 24\PLC\PLS assignments\3\scala-hw\src\main\scala\fp1.scala:166:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m166 |[0m      maxTailAux(ys, accumulator max y)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                 ^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                 Not found: ys - did you mean xs?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Sep 21, 2024, 2:25:04 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

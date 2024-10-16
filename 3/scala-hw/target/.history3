@@ -1,0 +1,13 @@
+1726855692403:compile
+1726855738715:test
+1726855760445:testOnly fp1tests -- -n fp1ex05
+1726856010579:testOnly fp1tests
+1726857023638:~testOnly fp1tests
+1727021652566:testOnly fp1tests
+1727021661982:~testOnly fp1tests
+1727129695756:testOnly fp1tests
+1727307840606:scala
+1727577312233:testonly fp2tests
+1727577322437:testOnly fp2tests
+1727577373930:~testOnly fp1tests
+1727577384213:~testOnly fp2tests
